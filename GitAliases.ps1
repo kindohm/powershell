@@ -8,6 +8,9 @@ Set-Alias gst Git-Status
 function Git-Pull { git pull }
 Set-Alias gpl Git-Pull
 
+function Git-Pull-Rebase { git pull --rebase }
+Set-Alias gplr Git-Pull-Rebase
+
 function Git-Push { git push }
 Set-Alias gpu Git-Push
 
