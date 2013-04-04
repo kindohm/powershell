@@ -35,5 +35,5 @@ Set-Alias gba Git-BranchAll
 function Git-StatLog { git log --stat --max-count=5 }
 Set-Alias glg Git-StatLog
 
-function Git-PrettyLog { git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative }
+function Git-PrettyLog { git log --graph --pretty=format:'%C(bold red)%h%Creset -%C(yellow)%d%Creset %s %C(green)(%cr) %C(cyan)<%an>%Creset' --abbrev-commit --date=relative }
 Set-Alias glog Git-PrettyLog
