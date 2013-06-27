@@ -17,7 +17,7 @@ Set-Alias gpu Git-Push
 function Git-Commit { git commit -v }
 Set-Alias gct Git-Commit
 
-function Git-CommitAll { git commit -v -a}
+function Git-CommitAll { git commit -v -a }
 Set-Alias gca Git-CommitAll
 
 function Git-AmendAll { git commit -a --amend -C HEAD }
